@@ -13,7 +13,7 @@ The IMDB reviews and tweets can be found in the data folder. These have already 
 
 ● The Twitter Dataset contains 900,000 classified tweets split into 750k train and 150k test sets. The overall distribution of labels is balanced (450k pos and 450k neg).
 
-# Functions in sentiment.py:
+# Important Functions in sentiment.py:
 
 ● feature_vecs_NLP: A word should be counted at most once per tweet/review even if the word has occurred multiple times in that tweet/review.
 
