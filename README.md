@@ -4,7 +4,10 @@ Perform sentiment analysis over IMDB movie reviews and Twitter data. Our goal wi
 We have a labeled training data to build the model and labeled testing data to evaluate the model. For classification, we will experiment with logistic regression as well as a Naive Bayes classifier from python’s well regarded machine learning package scikitlearn.
 
 A major part of this project is the task of generating feature vectors for use in these classifiers. We will explore two methods: 
-(1) A more traditional NLP technique where the features are simply “important” words and the feature vectors are simple binary vectors and (2) the Doc2Vec technique where document vectors are learned via artificial neural networks
+
+(1) A more traditional NLP technique where the features are simply “important” words and the feature vectors are simple binary vectors and 
+
+(2) the Doc2Vec technique where document vectors are learned via artificial neural networks
 
 # Datasets
 The IMDB reviews and tweets can be found in the data folder. These have already been divided into train and test sets.
